@@ -1,0 +1,13 @@
+{
+  "name": "3-entrega-del-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass -include-paht scss scss/seba.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run bluid-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
